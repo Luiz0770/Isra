@@ -1,4 +1,5 @@
 @import url(./login.css);
+@import url(./wines_datail.css);
 
 :root {
     --color-light: #ffffff;
@@ -116,6 +117,8 @@ ul, ol {
 }
 
 .wines h2 {
+    text-align: center;
+    font-size: 3em;
     margin: 30px 0 50px;
 }
 
@@ -183,7 +186,7 @@ ul, ol {
     color: var(--color-dark);
     width: 80vw;
     transition: var(--transition);
-    border-radius: 16px;
+    border-radius: 10px;
 }
 
 .form_input:focus{
@@ -208,7 +211,7 @@ ul, ol {
     border: 0px;
     width: 20vw;
     transition: var(--transition);
-    border-radius: 24px;
+    border-radius: 12px;
 }
 
 .form_botao:hover{

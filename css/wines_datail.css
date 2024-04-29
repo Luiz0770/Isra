@@ -1,0 +1,42 @@
+.descrisao_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descrisao_flex {
+    width: 80%;
+    height: 80%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: var(--color-light);
+    border-radius: 24px;
+}
+
+.descrisao_texto {
+    padding: 3em;
+
+    & h2 {
+        font-size: 3em;
+    }
+
+    & p {
+        margin-top: 8%;
+        font-size: 1.5em;
+    }
+
+    & button {
+        margin-top: 10%;
+        font-size: 1.5em;
+    }
+}
+
+.descrisao_imagem{
+    margin: 20px auto;
+}
