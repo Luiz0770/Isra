@@ -6,7 +6,7 @@ const loginGenerico = '1234'
 function verificarLogin() {
     if (inputLogin.value == loginGenerico && inputPassword.value == loginGenerico ) {
         alert("Login realizado com sucesso!")
-        window.location.href = '/index.html';
+        window.location.href = '/pages/home.html';
     }
     else {
         alert('Digite um login valido!')
