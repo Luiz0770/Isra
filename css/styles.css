@@ -214,3 +214,30 @@ ul, ol {
 }
 
 /*************** Fim Promação ***************/
+
+@media(max-width: 950px) {
+    .wines-item{
+        width: 42%;
+    }
+
+    .wine-photo{
+        width: 80%;
+    }
+
+    .wine-text{
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .wine-text h4{
+        display: none;
+    }
+
+}
+@media(max-width: 650px) {
+    .wines-item{
+        width: 88%;
+    }
+}
